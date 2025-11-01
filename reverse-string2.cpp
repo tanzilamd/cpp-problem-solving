@@ -10,6 +10,7 @@ void solution() {
     while(i < l) {
         swap(s[i], s[l]);
 
+        i++;
         l--;
     }
 
